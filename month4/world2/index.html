@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="index.css" />
+  <title>Appi's Drum</title>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="music-container">
+    <div class="title-container">
+      <h2>Appi's Drum</h2>
+      <p>Dante</p>
+    </div>
+
+    <div class="image-container">
+      <img src="recording.jpeg" alt="profile image" class="image" />
+    </div>
+
+    <audio id="audio" class="audio">
+      <source src="Apii.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <input type="range" id="progressBar" class="progress-bar" value="0" min="0" max="100" />
+
+    <div class="controls">
+      <button onclick="rewindSong()"><img src="rewind.svg" alt="Rewind" /></button>
+      <button id="playPauseBtn" onclick="togglePlay()"><img src="play.svg" alt="Play" /></button>
+      <button onclick="forwardSong()"><img src="forward.svg" alt="Forward" /></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

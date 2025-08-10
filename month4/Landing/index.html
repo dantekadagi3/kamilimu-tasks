@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="index.css" />
+  <title>Knowledge Worlds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="heading-container">
+      <h1>🌌 Knowledge Worlds</h1>
+      <p class="text">🚀 Interactive Learning Adventure</p>
+      <p class="text">Embark on an epic journey through four unique worlds, each representing a major theme from my  mentorship program.</p>
+    </div>
+
+    <!--Worlds-->
+    <div class="worlds-container">
+      <a href="../world1/index.html">
+        <div class="card">
+          <p>🎤</p>
+          <h3>Treasure Island</h3>
+          <p>Public Speaking</p>
+        </div>
+      </a>
+
+      <a href="../world2/index.html">
+        <div class="card">
+          <p>💡</p>
+          <h3>StoryLand</h3>
+          <p>Software Engineering</p>
+        </div>
+      </a>
+    <a href="../world3/index.html">
+      <div class="card">
+        <p>🧠</p>
+        <h3>Jenga</h3>
+        <p>A Mix of All</p>
+      </div>
+     </a>
+
+      <a href="../world4/index.html">
+        <div class="card mystery">
+          <p>❓</p>
+          <h3>What Next?</h3>
+          <p>Unlock a New Game</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="button-container">
+      <button onclick="startAdventure()">🎮 Begin Adventure</button>
+    </div>
+  </div>
+
+  <script>
+    function startAdventure() {
+      document.querySelector('.worlds-container').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

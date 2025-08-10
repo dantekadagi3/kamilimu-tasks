@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1f1f1f);
+  color: #e0e0e0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading-container {
+  margin-bottom: 40px;
+  animation: fadeIn 1s ease-in;
+}
+
+.heading-container h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #00f0ff, #ff00c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 12px;
+}
+
+.heading-container .text {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.worlds-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: linear-gradient(145deg, #1a1a1a, #232323);
+  border: 2px solid #333;
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: #fff;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  animation: popIn 1s ease forwards;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 20px #00f0ff88;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #00f0ff;
+}
+
+.card.mystery {
+  background: linear-gradient(135deg, #4b006e, #660066);
+  color: #fff;
+  border: 2px dashed #ccc;
+}
+
+.card.mystery:hover {
+  box-shadow: 0 0 20px #ff00c855;
+}
+
+.button-container {
+  margin-top: 50px;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, #ff00c8, #00f0ff);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #00f0ff, #ff00c8);
+  box-shadow: 0 0 10px #fff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .heading-container h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What should you do when entering the stage to show presence?",
+      "options": [
+        "Run quickly to the center",
+        "Pause, scan, smile, and plant your feet",
+        "Start talking immediately",
+        "Look at the floor"
+      ],
+      "answer": "Pause, scan, smile, and plant your feet"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT part of the 4 Ps of vocal variety?",
+      "options": ["Power", "Projection", "Pitch", "Pace"],
+      "answer": "Projection"
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of the Speaker’s Triangle?",
+      "options": [
+        "To keep you centered on stage",
+        "To decorate the stage",
+        "To support message structure through movement",
+        "To avoid eye contact"
+      ],
+      "answer": "To support message structure through movement"
+    },
+    {
+      "id": 4,
+      "question": "What type of body language helps emphasize your message?",
+      "options": [
+        "Closed arms and looking down",
+        "Pacing randomly",
+        "Open and purposeful hand gestures",
+        "Standing still throughout"
+      ],
+      "answer": "Open and purposeful hand gestures"
+    },
+    {
+      "id": 5,
+      "question": "When should you move on stage during a speech?",
+      "options": [
+        "To fill the space",
+        "When you feel nervous",
+        "To transition thoughts or emphasize points",
+        "Never move"
+      ],
+      "answer": "To transition thoughts or emphasize points"
+    },
+    {
+      "id": 6,
+      "question": "Which voice technique creates suspense or lets key points land?",
+      "options": ["Power", "Pitch", "Pace", "Pause"],
+      "answer": "Pause"
+    },
+    {
+      "id": 7,
+      "question": "How can poor posture affect your message?",
+      "options": [
+        "It has no effect",
+        "It increases your confidence",
+        "It reduces your message's impact",
+        "It makes your content funnier"
+      ],
+      "answer": "It reduces your message's impact"
+    },
+    {
+      "id": 8,
+      "question": "What is the final step after delivering your speech?",
+      "options": [
+        "Look nervous and walk away",
+        "Rush off the stage",
+        "Smile, make eye contact, and exit calmly",
+        "Start clapping for yourself"
+      ],
+      "answer": "Smile, make eye contact, and exit calmly"
+    },
+    {
+      "id": 9,
+      "question": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Advanced Programming Instruction",
+        "Application Process Integration",
+        "Automated Program Interaction"
+      ],
+      "answer": "Application Programming Interface"
+    },
+    {
+      "id": 10,
+      "question": "What is the primary purpose of an API?",
+      "options": [
+        "To design user interfaces",
+        "To format text documents",
+        "To enable communication between different software systems",
+        "To compile source code"
+      ],
+      "answer": "To enable communication between different software systems"
+    },
+    {
+      "id": 11,
+      "question": "Which HTTP method is commonly used to retrieve data from a server using an API?",
+      "options": ["GET", "POST", "PUT", "DELETE"],
+      "answer": "GET"
+    },
+    {
+      "id": 12,
+      "question": "What response status code indicates a successful API request?",
+      "options": ["200", "404", "500", "301"],
+      "answer": "200"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT a common data format used in APIs?",
+      "options": ["JSON", "XML", "CSV", "DOCX"],
+      "answer": "DOCX"
+    },
+    {
+      "id": 14,
+      "question": "What is a REST API?",
+      "options": [
+        "An API that supports real-time socket connections",
+        "An API built with Java only",
+        "An architectural style that uses standard HTTP methods",
+        "A database-specific API type"
+      ],
+      "answer": "An architectural style that uses standard HTTP methods"
+    },
+    {
+      "id": 15,
+      "question": "What does the HTTP status code 404 mean?",
+      "options": [
+        "Server Error",
+        "Request Successful",
+        "Resource Not Found",
+        "Request Redirected"
+      ],
+      "answer": "Resource Not Found"
+    },
+    {
+      "id": 16,
+      "question": "What is an API key used for?",
+      "options": [
+        "Encrypting frontend code",
+        "Authenticating and authorizing requests",
+        "Minifying JavaScript",
+        "Sorting database entries"
+      ],
+      "answer": "Authenticating and authorizing requests"
+    },
+    {
+      "id": 17,
+      "question": "Which tool is commonly used to test APIs?",
+      "options": ["Figma", "Postman", "Photoshop", "Excel"],
+      "answer": "Postman"
+    },
+    {
+      "id": 18,
+      "question": "Which of these best describes a 'POST' request?",
+      "options": [
+        "Retrieves data from the server",
+        "Deletes data on the server",
+        "Submits new data to the server",
+        "Updates existing data on the server"
+      ],
+      "answer": "Submits new data to the server"
+    },
+    {
+      "id": 19,
+      "question": "What does the HTTP status code 429 mean in API responses?",
+      "options": [
+        "Too Many Requests",
+        "Request Timeout",
+        "Method Not Allowed",
+        "Bad Gateway"
+      ],
+      "answer": "Too Many Requests"
+    },
+    {
+      "id": 20,
+      "question": "Which protocol does REST commonly use?",
+      "options": ["FTP", "SMTP", "HTTP", "SSH"],
+      "answer": "HTTP"
+    },
+    {
+      "id": 21,
+      "question": "What is the difference between PUT and PATCH in API requests?",
+      "options": [
+        "PUT deletes a resource, PATCH updates it",
+        "PUT is used for large files, PATCH for small ones",
+        "PUT replaces the resource, PATCH modifies part of it",
+        "There is no difference"
+      ],
+      "answer": "PUT replaces the resource, PATCH modifies part of it"
+    },
+    {
+      "id": 22,
+      "question": "What is OAuth used for in APIs?",
+      "options": [
+        "Encrypting responses",
+        "Data validation",
+        "Token-based user authorization",
+        "Compressing API payloads"
+      ],
+      "answer": "Token-based user authorization"
+    },
+    {
+      "id": 23,
+      "question": "In REST, what is an 'endpoint'?",
+      "options": [
+        "The end of a file",
+        "A specific URL where a resource can be accessed",
+        "The last value in a database table",
+        "The final function of an API"
+      ],
+      "answer": "A specific URL where a resource can be accessed"
+    },
+    {
+      "id": 24,
+      "question": "Which is true about GraphQL compared to REST?",
+      "options": [
+        "GraphQL always uses XML",
+        "GraphQL requires multiple round-trips",
+        "GraphQL allows clients to specify the exact data they need",
+        "GraphQL doesn’t use endpoints"
+      ],
+      "answer": "GraphQL allows clients to specify the exact data they need"
+    },
+    {
+      "id": 25,
+      "question": "What is rate limiting in APIs?",
+      "options": [
+        "Reducing server memory",
+        "Limiting the number of requests a user can make",
+        "Controlling upload file sizes",
+        "Restricting data formats"
+      ],
+      "answer": "Limiting the number of requests a user can make"
+    },
+    {
+      "id": 26,
+      "question": "Which HTTP method is idempotent in REST APIs?",
+      "options": ["POST", "GET", "PUT", "PATCH"],
+      "answer": "PUT"
+    },
+    {
+      "id": 27,
+      "question": "What is the purpose of CORS in web APIs?",
+      "options": [
+        "To encrypt HTTP requests",
+        "To control resource sharing across different domains",
+        "To prevent SQL injections",
+        "To monitor server CPU usage"
+      ],
+      "answer": "To control resource sharing across different domains"
+    },
+    {
+      "id": 28,
+      "question": "What does the term 'webhook' refer to?",
+      "options": [
+        "A way for APIs to fetch data from a server",
+        "An automatic callback sent from the server to a URL when an event occurs",
+        "A URL used to trigger a POST request manually",
+        "An API documentation format"
+      ],
+      "answer": "An automatic callback sent from the server to a URL when an event occurs"
+    }
+  ]
+}

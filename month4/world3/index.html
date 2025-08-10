@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="index.css" />
+  <title>Quiz Quest</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Left side brick wall -->
+    <div class="brick-wall" id="blocks-container"></div>
+
+    <!-- Right side quiz area -->
+    <div class="quiz-area">
+      <div class="overlay">
+        <h1>Welcome to <span class="highlight">Quiz Quest!</span></h1>
+        <p>Answer as many questions as possible to get the highest score!</p>
+        <div class="quiz-box">
+          <h2>Quiz Game</h2>
+          <p id="question-text">Loading question...</p>
+          <div id="options"></div>
+          <button id="next-btn" disabled>Next</button>
+          <p><strong>Score: <span id="score">0</span></strong></p>
+          <div id="notification" style="display: none; color: green; margin-top: 10px;">🎉 You Win!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

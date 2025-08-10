@@ -1,0 +1,82 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What should you do when entering the stage to show presence?",
+      "options": [
+        "Run quickly to the center",
+        "Pause, scan, smile, and plant your feet",
+        "Start talking immediately",
+        "Look at the floor"
+      ],
+      "answer": "Pause, scan, smile, and plant your feet"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT part of the 4 Ps of vocal variety?",
+      "options": ["Power", "Projection", "Pitch", "Pace"],
+      "answer": "Projection"
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of the Speaker’s Triangle?",
+      "options": [
+        "To keep you centered on stage",
+        "To decorate the stage",
+        "To support message structure through movement",
+        "To avoid eye contact"
+      ],
+      "answer": "To support message structure through movement"
+    },
+    {
+      "id": 4,
+      "question": "What type of body language helps emphasize your message?",
+      "options": [
+        "Closed arms and looking down",
+        "Pacing randomly",
+        "Open and purposeful hand gestures",
+        "Standing still throughout"
+      ],
+      "answer": "Open and purposeful hand gestures"
+    },
+    {
+      "id": 5,
+      "question": "When should you move on stage during a speech?",
+      "options": [
+        "To fill the space",
+        "When you feel nervous",
+        "To transition thoughts or emphasize points",
+        "Never move"
+      ],
+      "answer": "To transition thoughts or emphasize points"
+    },
+    {
+      "id": 6,
+      "question": "Which voice technique creates suspense or lets key points land?",
+      "options": ["Power", "Pitch", "Pace", "Pause"],
+      "answer": "Pause"
+    },
+    {
+      "id": 7,
+      "question": "How can poor posture affect your message?",
+      "options": [
+        "It has no effect",
+        "It increases your confidence",
+        "It reduces your message's impact",
+        "It makes your content funnier"
+      ],
+      "answer": "It reduces your message's impact"
+    },
+    {
+      "id": 8,
+      "question": "What is the final step after delivering your speech?",
+      "options": [
+        "Look nervous and walk away",
+        "Rush off the stage",
+        "Smile, make eye contact, and exit calmly",
+        "Start clapping for yourself"
+      ],
+      "answer": "Smile, make eye contact, and exit calmly"
+    }
+  ]
+}
